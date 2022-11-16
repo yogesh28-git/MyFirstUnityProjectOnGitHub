@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 106504243}
   - component: {fileID: 106504242}
   m_Layer: 5
-  m_Name: Scene1
+  m_Name: Master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,6 +289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e71e189403984304ab267d1ad37d843b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button: {fileID: 106504242}
+  SceneName: MasterScene
 --- !u!1 &481525114
 GameObject:
   m_ObjectHideFlags: 0
